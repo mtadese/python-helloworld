@@ -20,3 +20,17 @@ INFO:werkzeug:127.0.0.1 - - [12/Jun/2021 12:57:28] "[33mGET /notfound HTTP/1.1
 INFO:app:Status request successfull
 INFO:werkzeug:127.0.0.1 - - [12/Jun/2021 12:57:35] "GET /status HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Jun/2021 12:58:00] "[33mGET /notfounf HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:8080/ (Press CTRL+C to quit)
+INFO:app:Main request successfull
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2021 03:33:12] "GET / HTTP/1.1" 200 -
+INFO:app:Status request successfull
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2021 03:33:18] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2021 03:33:26] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.2.15:8080/ (Press CTRL+C to quit)
+INFO:app:Metrics request successfull
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2021 03:38:26] "GET /metrics HTTP/1.1" 200 -

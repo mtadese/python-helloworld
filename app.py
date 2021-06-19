@@ -1,3 +1,4 @@
+import os
 from flask import Flask, json
 import logging
 
@@ -39,4 +40,6 @@ if __name__ == "__main__":
     ## stream logs to app.log file
     logging.basicConfig(filename='app.log',level=logging.DEBUG)
 
-    app.run(host='0.0.0.0')
+    #declare to locally run python app on port 8080
+    port = int(os.getenv("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)

@@ -6,6 +6,8 @@
 
 ### Addon Module(s):
 - App Logging module
+- GitHub Workflows - for GitHub Actions
+- Pytest Module - for GitHub Actions
 
 ### Addon File(s)
 #### Vagrantfile
